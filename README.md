@@ -5,8 +5,8 @@
 
 * [Heroku](  https://heroku.com/deploy?template=https://github.com/cutvynx/NEXORA-BOT)
  
- all regards to
-1  Arslan Tech
-2. SOURAJIT Tech 
+* All regards to
+*1. Arslan Tech
+*2. SOURAJIT Tech 
 
  *Thank you Support me*
