@@ -56,35 +56,41 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_Arslan_Tech.sendMessage(Qr_Code_By_Arslan_Tech.user.id, { text: 'ARSLAN-MD~' + b64data });
+				   let session = await Qr_Code_By_Arslan_Tech.sendMessage(Qr_Code_By_Arslan_Tech.user.id, { text: 'NEXORA-BOT~' + b64data });
 	
 				   let Arslan_MD_TEXT = `
-╔════════════════════◇
-║『 SESSION CONNECTED』
-║ ✨Arslan-MD🔷
-║ ✨ArslanMD OFFICIAL🔷
-╚════════════════════╝
+╭━━━〔 ⚡ NEXORA-BOT ⚡ 〕━━━╮
+┃   ✅ SESSION SUCCESSFULLY CONNECTED
+┃   👑 User: Arslan-MD
+┃   💎 Mode: OFFICIAL ACTIVE
+╰━━━━━━━━━━━━━━━━━━━━━━━╯
 
 
----
+╭━━━〔 🚀 BOT ACTIVATION PANEL 〕━━━╮
+┃   🔹 Selected Bot: NEXORA-BOT 
+┃   🔹 Status: ONLINE & READY
+┃   🔹 Setup Required:
+┃      ➤ Add SESSION_ID in config 
+╰━━━━━━━━━━━━━━━━━━━━━━━╯
 
-╔════════════════════◇
-║『 YOU'VE CHOSEN Arslan-MD 』
-║ -Set the session ID in Heroku:
-║ - SESSION_ID: 
-╚════════════════════╝
-╔════════════════════◇
-║ 『••• _V𝗶𝘀𝗶𝘁 𝗙𝗼𝗿_H𝗲𝗹𝗽 •••』
-║❍ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: youtube.com/@arslanmdofficial
-║❍ 𝐎𝐰𝐧𝐞𝐫: 923237045919
-║❍ 𝐑𝐞𝐩𝐨: https://github.com/Arslan-MD/Arslan_MD 
-║❍ 𝐖𝐚𝐆𝗿𝐨𝐮𝐩: https://chat.whatsapp.com/KRyARlvcUjoIv1CPSSyQA5?mode=wwt
-║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306
-║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/arslanmd
-║ ☬ ☬ ☬ ☬
-╚═════════════════════╝
-𒂀 Enjoy Arslan-MD
 
+╭━━━〔 🌐 SUPPORT & LINKS 〕━━━╮
+┃   👤 Owner: +916909950582
+┃   📦 Repo: github.com/cutvynx/NEXORA-BOT
+┃   💬 WhatsApp Group:
+┃      https://chat.whatsapp.com/JfPoJeSWn5E286lr4j6RU7?mode=gi_t
+┃   📢 Channel:
+┃      https://whatsapp.com/channel/0029Vb8RbTUEwEjyRIgD8M34
+╰━━━━━━━━━━━━━━━━━━━━━━━╯
+
+
+╭━━━〔 ✨ SYSTEM NOTE 〕━━━╮
+┃   ⚙️ Powered by NEXORA-BOT Engine
+┃   ⚡ Fast • Secure • Reliable
+┃   🎯 Enjoy Premium Bot Experience
+╰━━━━━━━━━━━━━━━━━━━━━━━╯
+
+            𒂀 𝐄𝐍𝐉𝐎𝐘 𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑 𒂀
 
 ---
 
